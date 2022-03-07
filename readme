@@ -6,6 +6,9 @@ To Install:
 3) node app
 that's all.
 
+The db has 38 documents for test.
+You can change the working time of the worker so that it uploads more documents to the db in line 94.
+
 Info:
 1) To request information by title, author or tags, the following route must be followed, keys for search (title, author, tags)
 http://localhost:3000/data/
