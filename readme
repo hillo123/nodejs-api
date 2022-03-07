@@ -1,6 +1,12 @@
 *The worker is who is encharge of take the data once an hour from the api and uploaded to mongod
 *No ORM needed
+To Install:
+1) download the file
+2) npm i
+3) node app
+that's all.
 
+Info:
 1) To request information by title, author or tags, the following route must be followed, keys for search (title, author, tags)
 http://localhost:3000/data/
 For example:
