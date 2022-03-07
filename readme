@@ -1,0 +1,18 @@
+*The worker is who is encharge of take the data once an hour from the api and uploaded to mongod
+*No ORM needed
+
+1) To request information by title, author or tags, the following route must be followed, keys for search (title, author, tags)
+http://localhost:3000/data/
+For example:
+http://localhost:3000/data/?author=Banana699
+or
+http://localhost:3000/data/?author=the21st&title=Automatic profiling of Node.js blocked event loop in production
+or
+http://localhost:3000/data/?tags=story_30582221
+
+2) To delete an item, by the following path and using the _id
+http://localhost:3000/item/:id
+For example:
+http://localhost:3000/item/6226809e8992e7c43054185e
+
+enjoy!
